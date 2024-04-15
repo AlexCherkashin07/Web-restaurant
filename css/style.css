@@ -1,0 +1,406 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-bottom: solid orange;
+
+}
+.topmenu li{
+    display: inline-block;
+    margin-left: 85px;
+    margin-right: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 115px;
+}
+.topmenu a{
+    color: black;
+}
+.topmenu a:hover{
+    color: red;
+}
+.content_1{
+    display: flex;
+    justify-content: start;
+    border-bottom: solid orange;
+}
+.text1{
+  float: left;
+  margin: 0 20px 0 50px;
+}
+.big1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 92px;
+    line-height: 1.2;
+    color: black;
+    margin: 50px 0 150px 170px;
+}
+  
+.maintext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    margin: 0 100px 50px 120px;
+}
+.picture1{
+   float: right;
+   margin: 30px 100px 30px 30px;
+  
+}
+.firstbotton{
+    padding: 10px 25px;
+    margin: 25px 50px 50px 120px;
+    outline: none;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    background-color: rgba(242, 205, 93, 0.54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: black;
+}
+.meal1{
+   display: flex;
+   justify-content: space-around;
+   margin: 60px 60px 0 60px;  
+   padding: 15px;
+    
+}
+.meal1text{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px 60px 60px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+}
+.story{
+    display: flex;
+    justify-content: start;
+}
+.picturestory{
+    display: flex;
+    width: inherit;
+    margin: 0 15px 50px 50px;
+}
+.storywords{
+    float: right;
+    margin: 100px 180px 20px 100px;
+}
+.storyletter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+}
+.storycontent{
+    margin: 30px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+.storybutton{
+    padding: 10px 15px;
+    margin: 20px 0 0 0;
+    border-bottom: solid black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: black;
+}
+.menumain{
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+    border: dotted orange;
+}
+.aboutmenu{
+    margin: 35px 60px 20px 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+.cardscroll{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 20px 0 0 0;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 25px;
+    margin: 0 0 0 30px;
+}
+.coffephoto{
+    display: flex;
+    width: 200px;
+    height: 240px;
+   /* width: inherit;*/
+    margin: 40px 15px 30px 50px;
+    text-align: center;
+}
+.coffewords{
+    float: right;
+    margin: 10px 50px 20px 100px;
+}
+.coffeletter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: 700;
+    color: black;
+    text-align: justify;
+}
+.coffecontent{
+    margin: 5px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    color: black;
+    
+}
+.coffebutton{
+    padding: 10px 35px;
+    margin: 30px 70px 10px 0;
+    outline: none;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    background-color: rgba(242, 205, 93, 0.54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    color: black;
+}
+.storemain{
+    padding: 60px 0 0 0;
+    margin: 80px 0 0 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+    border-top: solid orange;
+}
+.aboutstore{
+    margin: 35px 60px 20px 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+.store{
+    display: flex;
+    margin: 20px 100px 0 100px;
+
+}
+.store1{
+    flex: none;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 25px;
+    margin: 0 80px 0 80px;
+    width: 400px;
+    height: 500px;
+    
+}
+.storephoto{
+    margin: 40px 20px 30px 20px;
+    text-align: center;
+}
+.storecontent{
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+.storevisit{
+    margin: 10px 0 0 0;
+    padding: 5px 25px;
+    outline: none;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+    font-weight: 700;
+    color: white;
+}
+.video{
+   margin: 150px 100px 0 100px;
+   border-top: solid orange;
+  }
+.block {
+    display: flex;
+    margin: 100px 0 0 0;
+    padding: 20px;
+    height: 100%;
+  }
+.video-container { 
+    width: 40%;
+    background-color: white;
+    text-align: center;
+  }
+  
+.text {
+    margin: 0 20px;
+    width: 60%;
+  }
+.company{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+}
+.companytext{
+    margin: 50px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+}
+.social-icons{
+    margin: 100px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.contact{
+    border-top: solid orange;
+}
+.maps{
+    display: flex;
+    margin: 100px 0 0 0;
+    padding: 20px;
+    
+}
+.maps-container{
+    background-color: white;
+    text-align: left;
+    width: 40%;
+}
+.contactus{
+    text-align: left;
+    margin: 0 0 0 200px;
+}
+.contacttitle{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+}
+.contactform{
+    margin: 50px 0 0 0;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    color: black;
+    resize: vertical;
+}
+input[type=submit]{
+    padding: 10px 25px;
+    margin: 25px 50px 50px 0;
+    outline: none;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    background-color: rgba(242, 205, 93, 0.54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #f3b200;
+    border-top: 1px solid #e5e5e5;
+    padding: 30px 0;
+  }
+  .footer__addr{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .footercontact{
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .footer__addrL{
+    display: flex;
+    flex-direction: row;
+    margin: 0 200px;
+   
+  }
+  .footer-menu__list{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    color: black;
+  }
+  .footer-menu__item{
+    margin-top: 0.2em;
+  }
+  .itemlist{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: black;
+  }
+  .footer-menu__listSN{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 50px;
+  }
